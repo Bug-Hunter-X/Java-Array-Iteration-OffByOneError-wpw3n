@@ -1,0 +1,3 @@
+# Off-by-One Error in Java Array Iteration
+
+This repository demonstrates a common off-by-one error in Java when iterating over arrays.  The `BuggyArray.java` file contains the erroneous code, while `FixedArray.java` shows the corrected version. The error is in the for loop's condition.  It should be `i < arr.length` instead of `i <= arr.length`. This seemingly minor mistake is a frequent source of bugs.
